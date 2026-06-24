@@ -121,7 +121,7 @@ module "ec2_instances" {
 }
 
 module "s3_bucket" {
-  source  = "app.terraform.io/policy-as-code-training/s3-bucket-jrsm/aws"
+  source  = "app.terraform.io/policy-as-code-training/terraform-s3-bucket-jrsm/aws"
   version = "1.2.0"
   bucket_name = "my-bucket"
 }
